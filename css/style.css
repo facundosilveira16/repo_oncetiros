@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+/* Encabezado */
+.encabezado {
+  background-color: #5f6176;
+  border-bottom: solid 1px black;
+}
+
+.encabezado__contenido-logo {
+  font-size: 3rem;
+  color: white;
+}
+
+.encabezado__contenido-menu {
+  font-size: 1.5rem;
+  text-align: right;
+
+}
+.encabezado__li{
+  display: inline;
+  
+}
+
+.encabezado__contenido-item {
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+
+}
+
+.imagen__logo {
+  width: 50px;
+  height: 40px;
+}
+
+/* Main */
+main {
+  background-color: #454254;
+}
+
+.main__slide {
+  padding: 30px 20px;
+
+}
+.imagen__main {
+  width: 600px;
+  height: 500px;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.historia {
+  background-color: #2b2e37;
+  padding: 30px;
+  letter-spacing: 1px;
+}
+
+.historia__titulo {
+  font-size: 3.3rem;
+  text-align: center;
+  padding: 20px 30px;
+}
+.historia__contenido {
+  font-size: 2rem;
+}
+
+.seccion__videos {
+  background-color: #14161e;
+  display: flex;
+
+}
+
+.video {
+  width: 600px;
+  height: 600px;
+  
+}
+
+.nombre__video{
+  font-size: 2rem;
+  
+}
+
+
+
+/* contacto */
+
+
+
+.imagen__logo2 {
+  width: 40px;
+  height: 30px;
+  
+}
+.contacto__titulo{
+  font-size: 3.3rem;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+.contacto__subtitulo{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.redes{
+  padding-bottom: 50px;
+}
+.contacto__parrafo {
+  text-align: center;
+  padding: 15px;
+  font-size: 25px;
+}
+
+.formulario {
+  border-radius: 1px solid white;
+}
+
+/* galeria */
+
+.galeria__titulo{
+  font-size: 3.3rem;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+.galeria__container{
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(3,1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.galeria__container img{
+  width: 400px;
+  height: 400px;
+}
+
+/* discografia */
+
+.discografia__titulo{
+  font-size: 3.3rem;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+.discografia{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.disco__imagen {
+  width: 360px;
+  height: 215px;
+ 
+}
+
+.discos__container{
+  border-radius: 10px;
+  background-color: rgb(11, 12, 12);
+  width: 400px;
+  display: grid;
+  
+
+}
+/* footer */
+
+.pie {
+  background-color: #060606;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  
+}
+
+
+.pie__lista{
+  display: inline;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+
+
+@media only screen and (max-with:768px){
+
+}
+
+@media only screen and (max-with:576px){
+  .seccion__videos{
+    flex-direction: column;
+  }
+}
